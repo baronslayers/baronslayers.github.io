@@ -102,11 +102,11 @@ hr {
     width: 80%;
     margin-right: auto;
     margin-left: auto;
-    justify-content: center;
+    
 }
 
 .team-pic{
-    padding-left: 4px;
+    padding-left: 10px;
     width: 200px;
     border-radius: 50%;
 }
