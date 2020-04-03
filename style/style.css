@@ -1,6 +1,8 @@
 body {
     margin: 0;
     background-color: rgb(107, 7, 107);
+    font-family: 'Montserrat Alternates', sans-serif;
+    color: whitesmoke;
     display: grid;
     
 }
@@ -16,6 +18,23 @@ header {
     justify-content: center;
     height: 80px;
     width: 100%;
+}
+
+hr {
+    color: whitesmoke;
+    background-color: whitesmoke;
+    border-color: whitesmoke;
+    height: 0.3px;
+    width: 90%;
+    
+}
+
+.divisoria {
+    color: whitesmoke;
+    background-color: whitesmoke;
+    border-color: whitesmoke;
+    height: 0.3px;
+    width: 80%;
 }
 
 #Title{
@@ -37,8 +56,7 @@ header {
 }
 
 #Sobre {
-    font-family: 'Montserrat Alternates', sans-serif;
-    color: whitesmoke;
+    
     width: 100%;
     height: 50%;
     display: flex;
@@ -61,4 +79,35 @@ header {
     width: 85%;
     margin-right: 10px;
     margin-top: 3%;
+}
+
+#Equipe{
+    border-color: whitesmoke;
+    border-width: 4px;
+    border-style: solid;
+    border-radius: 2vw;
+    margin-left: 8px;
+    margin-right: 8px;
+    text-align: center;
+}
+
+
+#Equipe h2 {
+    text-transform: uppercase;
+}
+
+.Team {
+    display: flex;
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.team-pic{
+    width: 200px;
+    border-radius: 50%;
+}
+
+.team-name{
+
 }
