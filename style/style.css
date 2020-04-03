@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    background-color: rgb(107, 7, 107);
+    display: grid;
+    
+}
+header {
+    background-color: rgb(189, 43, 43);
+    color: whitesmoke;
+    text-transform: uppercase;
+    font-size: larger;
+    font-family: 'Gotu', sans-serif;
+    font-style: italic;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+    width: 100%;
+}
+
+#Title{
+    display: flex;
+    width: 60%;
+    justify-content: flex-end;
+}
+
+.link-externo{
+    width: 40%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.link-externo img {
+    height: 75px;
+    
+    vertical-align: middle;
+}
+
+#logo {
+    padding-left: 2px;
+    padding-top: 4px;
+    border-radius: 50%;
+}
