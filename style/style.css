@@ -25,7 +25,7 @@ hr {
     background-color: whitesmoke;
     border-color: whitesmoke;
     height: 0.3px;
-    width: 90%;
+    width: 95%;
     
 }
 
@@ -34,7 +34,7 @@ hr {
     background-color: whitesmoke;
     border-color: whitesmoke;
     height: 0.3px;
-    width: 80%;
+    width: 90%;
 }
 
 #Title{
@@ -89,6 +89,7 @@ hr {
     margin-top: 15px;
     margin-left: 8px;
     margin-right: 8px;
+    margin-bottom: 15px;
     text-align: center;
 }
 
@@ -99,18 +100,15 @@ hr {
 
 .Team {
     display: flex;
-    width: 80%;
+    width: 90%;
     margin-right: auto;
     margin-left: auto;
+    padding-bottom: 15px;
+    justify-content: space-around;
     
 }
 
 .team-pic{
-    padding-left: 10px;
     width: 200px;
     border-radius: 50%;
-}
-
-.team-name{
-    padding-left: 15px;
 }
