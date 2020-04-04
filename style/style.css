@@ -10,7 +10,7 @@ header {
     background-color: rgb(189, 43, 43);
     color: whitesmoke;
     text-transform: uppercase;
-    font-size: larger;
+    font-size: large;
     font-family: 'Gotu', sans-serif;
     font-style: italic;
     display: flex;
@@ -38,21 +38,19 @@ hr {
 }
 
 #Title{
-    display: grid;
-    grid-template-columns: auto auto;
     width: auto;
     justify-content: flex-end;
 }
 
 .link-externo{
-    width: 30%;
+    width: 40%;
     display: grid;
     grid-template-columns: auto auto;
     justify-content: flex-end;
 }
 
 .link-externo img {
-    height: 4.5vw;
+    height: 10vw;
     
     vertical-align: middle;
 }
