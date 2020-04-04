@@ -16,7 +16,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 5vw;
+    height: auto;
     width: 100%;
 }
 
@@ -38,14 +38,16 @@ hr {
 }
 
 #Title{
-    display: flex;
-    width: 60%;
+    display: grid;
+    grid-template-columns: auto auto;
+    width: auto;
     justify-content: flex-end;
 }
 
 .link-externo{
-    width: 40%;
-    display: flex;
+    width: 30%;
+    display: grid;
+    grid-template-columns: auto auto;
     justify-content: flex-end;
 }
 
@@ -58,18 +60,20 @@ hr {
 #Sobre {
     padding-top: 1vw;
     width: 100%;
-    height: 50%;
+    height: auto;
     display: grid;
-    grid-template-columns: 14vw 84vw;
-    justify-content: space-around;
+    grid-template-columns: auto auto;
 }
 
 #sobre-img {
+    height: auto;
     align-items: center;
+    margin-top: auto;
+    margin-bottom: auto;
+    vertical-align: middle;
 }
 
 #logo {
-    padding-left: 1vw;
     padding-top: 7.5%;
     border-radius: 50%;
 }
@@ -77,6 +81,7 @@ hr {
 #sobre-text {
     text-align: justify;
     font-size: large;
+    padding-left: 1vw;
     margin-right: 1vw;
     margin-top: 3%;
 }
