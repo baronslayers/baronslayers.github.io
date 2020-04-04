@@ -61,6 +61,7 @@ hr {
     height: 50%;
     display: grid;
     grid-template-columns: 14vw 84vw;
+    justify-content: space-around;
 }
 
 #sobre-img {
