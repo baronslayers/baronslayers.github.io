@@ -1,17 +1,17 @@
 body {
     margin: 0;
-    background-color: rgb(107, 7, 107);
+    background-color: #292828;
     font-family: 'Montserrat Alternates', sans-serif;
-    color: whitesmoke;
+    color: #e5e5e5;
     display: grid;
     
 }
 header {
-    background-color: rgb(189, 43, 43);
+    background-color: #701f5f;
     color: whitesmoke;
     text-transform: uppercase;
     font-size: large;
-    font-family: 'Gotu', sans-serif;
+    font-family: 'DM Serif Text', serif;
     font-style: italic;
     display: flex;
     align-items: center;
@@ -21,18 +21,18 @@ header {
 }
 
 hr {
-    color: whitesmoke;
-    background-color: whitesmoke;
-    border-color: whitesmoke;
+    color: #8E2D2D;
+    background-color: #8E2D2D;
+    border-color: #8E2D2D;
     height: 0.1vw;
     width: 95%;
     
 }
 
 .divisoria {
-    color: whitesmoke;
-    background-color: whitesmoke;
-    border-color: whitesmoke;
+    color: #8E2D2D;
+    background-color:#8E2D2D;
+    border-color: #8E2D2D;
     height: 0.1vw;
     width: 90%;
 }
@@ -72,8 +72,12 @@ hr {
 }
 
 #logo {
-    padding-top: 7.5%;
+    margin-top: 0.5vw;
+    margin-left: 0.5vw;
     border-radius: 50%;
+    border-style: solid;
+    border-width: 0.2VW;
+    border-color: #8E2D2D;
 }
 
 #sobre-text {
@@ -85,7 +89,7 @@ hr {
 }
 
 #Equipe{
-    border-color: whitesmoke;
+    border-color: #8E2D2D;
     border-width: 4px;
     border-style: solid;
     border-radius: 2vw;
@@ -114,10 +118,13 @@ hr {
 .team-pic{
     width: 12vw;
     border-radius: 50%;
+    border-style: solid;
+    border-width: 0.2VW;
+    border-color: #8E2D2D;
 }
 
 footer{
-    background-color: rgb(88, 87, 87);
+    background-color: #89878A;
     color: lightgray;
     display: flex;
     justify-content: space-around;
