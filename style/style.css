@@ -112,3 +112,14 @@ hr {
     width: 200px;
     border-radius: 50%;
 }
+
+footer{
+    background-color: rgb(88, 87, 87);
+    color: lightgray;
+    display: flex;
+    justify-content: space-around;
+}
+
+footer div {
+    padding-bottom: 15px
+}
