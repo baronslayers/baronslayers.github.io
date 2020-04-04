@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    background-color: #292828;
+    background-color: #1f1e1e;
     font-family: 'Montserrat Alternates', sans-serif;
     color: #e5e5e5;
     display: grid;
@@ -50,7 +50,7 @@ hr {
 }
 
 .link-externo img {
-    height: 10vw;
+    height: 7vw;
     
     vertical-align: middle;
 }
@@ -124,7 +124,7 @@ hr {
 }
 
 footer{
-    background-color: #89878A;
+    background-color: rgb(61, 61, 61);
     color: lightgray;
     display: flex;
     justify-content: space-around;
